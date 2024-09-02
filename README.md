@@ -10,7 +10,7 @@
 ##### 1、发布SDK到自己的 Maven私服（`请下载新版本`）
 
 ```shell
-mvn deploy:deploy-file -DgroupId=com.baidu.aip -DartifactId=java-sdk -Dversion=4.11.1 -Dpackaging=jar -Dfile=D:\aip-java-sdk-4.11.1.jar -Durl=http://127.0.0.1:8082/nexus/content/repositories/releases/ -DrepositoryId=nexus-releases
+mvn deploy:deploy-file -DgroupId=com.arcsoft.face -DartifactId=arcsoft-sdk-face -Dversion=3.0.0.0 -Dpackaging=jar -Dfile=D:\arcsoft-sdk-face-3.0.0.0.jar -Durl=http://127.0.0.1:8082/nexus/content/repositories/releases/ -DrepositoryId=nexus-releases
 ```
 
 ##### 2、Spring Boot 项目添加 Maven 依赖

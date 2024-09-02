@@ -3,7 +3,7 @@ package com.arcsoft.face.spring.boot;
 
 import static com.arcsoft.face.toolkit.ImageFactory.getGrayData;
 import static com.arcsoft.face.toolkit.ImageFactory.getRGBData;
-import static org.junit.Assert.assertEquals;
+import static org.springframework.test.util.AssertionErrors.assertEquals;
 
 import java.io.File;
 import java.util.ArrayList;
