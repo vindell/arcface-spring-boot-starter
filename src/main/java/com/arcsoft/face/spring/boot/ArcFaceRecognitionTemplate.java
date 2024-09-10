@@ -23,8 +23,8 @@ import org.apache.commons.pool2.impl.GenericObjectPool;
 import org.springframework.context.support.MessageSourceAccessor;
 import org.springframework.util.CollectionUtils;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
 import com.arcsoft.face.AgeInfo;
 import com.arcsoft.face.Face3DAngle;
 import com.arcsoft.face.FaceEngine;
